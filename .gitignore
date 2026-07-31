@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+
+# Environment & secrets
+.env
+backend/.env
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Build outputs
+dist/
+.vercel/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
